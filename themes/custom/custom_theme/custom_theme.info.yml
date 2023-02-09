@@ -1,0 +1,21 @@
+
+name: Tema Drupal
+type: theme
+base theme: stable9
+description: 'Tema drupal'
+package: Core
+core_version_requirement: ^9 || ^10
+
+libraries:
+  - custom_theme/global-styles
+
+
+version: '10.0.3'
+project: 'drupal'
+datestamp: 1675276782
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  featured: 'Featured'
+  footer: 'Footer'
