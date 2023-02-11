@@ -125,12 +125,10 @@ main{
 
 /*Estilo de la segunda parte*/
 .secondPart{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 145px 75px;
-    margin: 157px 0;
-    padding: 0 280px;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  gap: 145px 75px;
+  margin: 157px 0;
 }
 
 .element{
@@ -149,6 +147,20 @@ main{
 .firstPart p{
     margin: 25px 0 12px 0;
     font-size: 14px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: center
+}
+.ul{
+  
+display: flex;
+padding: 20px;
+gap: 221px;
+justify-content: center;
+align-items: center;
+height: 100%;
 }
 
 /*Estilo de la tercera parte*/
